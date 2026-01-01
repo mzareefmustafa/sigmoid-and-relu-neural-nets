@@ -1,26 +1,34 @@
-# Neural Network Cost Minimization & Activation Analysis  
+# Neural Network Optimization & Activation Function Analysis (Python)
 
-This project explores neural networks by implementing a basic feedforward network and optimizing its cost function. It compares the effects of different activation functions (Sigmoid, ReLU) and hidden layer structures on performance.  
+A Python project exploring neural network training dynamics by implementing feedforward networks from scratch and analyzing how activation functions and network depth affect cost minimization and convergence.
 
-## Features  
-- **Forward & Backpropagation:** Implements cost function minimization using gradient descent.  
-- **Activation Functions:** Compares Sigmoid and ReLU activations.  
-- **Hidden Layers:** Tests performance with and without additional hidden layers.  
-- **Visualization:** Plots cost reduction over iterations.  
+## Experiments Conducted
 
-## How It Works  
-1. **Data Normalization:** Scales input data for better performance.  
-2. **Training:** Adjusts weights iteratively to minimize cost.  
-3. **Evaluation:** Compares results across different activation functions and architectures.  
+- Implemented forward and backpropagation using gradient descent
+- Compared sigmoid and ReLU activation functions
+- Tested shallow vs deeper network architectures
+- Visualized cost reduction over training iterations
 
-## Results  
-- **Sigmoid vs. ReLU:** ReLU tends to converge faster and avoids vanishing gradients.  
-- **Hidden Layers:** Adding layers can improve learning but may require tuning.  
-- **Cost Reduction:** Visualized using matplotlib to track progress.  
+## Key Findings
 
-## Run It Yourself  
-Make sure you have Python and NumPy installed, then run the scripts to see the training process in action!  
+- ReLU converges faster than sigmoid and avoids vanishing gradient issues
+- Sigmoid networks require more tuning and iterations
+- Additional hidden layers improve learning capacity but increase optimization complexity
+- Convergence behavior depends strongly on activation choice and architecture
 
----
+## Tools & Skills Used
 
-A simple but effective deep learning experiment 🚀  
+- Python
+- NumPy
+- Matplotlib
+- Gradient descent optimization
+- Manual backpropagation
+- Model diagnostics
+
+## Notes
+
+This project demonstrates foundational understanding of neural network mechanics and optimization behavior, supporting broader data science and analytics work.
+
+## Author
+
+Mohammed Zareef-Mustafa
